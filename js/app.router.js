@@ -6,7 +6,7 @@ angular.module('catalogueApp')
     $routeProvider
     .when('/search', {
         templateUrl: 'search.html',
-        controller: 'SearchCtrl'
+        controller: 'searchCtrl'
       })
       .when('/category', {
         templateUrl: 'item.html',
@@ -18,7 +18,7 @@ angular.module('catalogueApp')
       })
       .when('/itemDetail', {
         templateUrl: 'itemDetails.html',
-        controller: 'ItemDetailCtrl'
+        controller: 'itemDetailsCtrl'
       });
       
   });
