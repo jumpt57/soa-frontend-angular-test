@@ -5,19 +5,19 @@ angular.module('catalogueApp')
   .config(function ($routeProvider) {
     $routeProvider
     .when('/search', {
-        templateUrl: 'search.html',
+        templateUrl: './templates/search.html',
         controller: 'searchCtrl'
       })
       .when('/category', {
-        templateUrl: 'item.html',
+        templateUrl: './templates/item.html',
         controller: 'ItemCtrl'
       })
       .when('/item', {
-        templateUrl: 'category.html',
+        templateUrl: './templates/category.html',
         controller: 'CategoryCtrl'
       })
       .when('/itemDetail', {
-        templateUrl: 'itemDetails.html',
+        templateUrl: './templates/itemDetails.html',
         controller: 'itemDetailsCtrl'
       });
       
