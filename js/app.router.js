@@ -1,6 +1,5 @@
 'use strict';
 
-//Le paramètre :id correspond à l'identifiant de l'application sélectionné
 angular.module('catalogueApp')
   .config(function ($routeProvider) {
     $routeProvider

@@ -1,0 +1,48 @@
+[
+  {
+    "id":1,
+    "categ": 1,
+    "name": "Câble USB"
+  },
+  {
+    "id":2,
+    "categ": 2,
+    "name": "Asus ROG P85"
+  },
+  {
+    "id":3,
+    "categ": 3,
+    "name": "Ecran Samsung 4K 54 pouces"
+  },
+  {
+    "id":4,
+    "categ": 1,
+    "name": "Câble VGA"
+  },
+  {
+    "id":5,
+    "categ": 2
+  },
+  {
+    "id":6,
+    "categ": 3
+  },
+  {
+    "id":7,
+    "categ": 1,
+    "name": "Câble HDMI"
+  },
+  {
+    "id":8,
+    "categ": 2
+  },
+  {
+    "id":9,
+    "categ": 3
+  },
+  {
+    "id":10,
+    "categ": 1,
+    "name": "Câble DVI"
+  }
+]
