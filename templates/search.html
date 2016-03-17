@@ -1,0 +1,26 @@
+<div class="page-header">
+    <h2>Rechercher</h2>
+</div>
+
+<div class="row well">
+
+    <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1">Mot clé :</span>
+        <input ng-model="input" type="text" class="form-control" placeholder="Produit" aria-describedby="basic-addon1">
+         <span class="input-group-btn">
+            <button ng-click="search(input)" class="btn btn-default">Rechercher</button>
+         </span>
+    </div>
+</div>
+
+<div class="row">
+    <div class="list-group">
+        <button ng-repeat="item in items" class="list-group-item"  ng-click="voir(item)">
+            {{item.name}} - {{item.prix | currency:"€"}}
+        </button>
+    </div>
+</div>
+
+<p ng-model="message"></p>
+
+

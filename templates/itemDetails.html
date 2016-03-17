@@ -1,0 +1,20 @@
+<div class="page-header">
+    <button ng-click="retour()" class="btn btn-default">Retour</button>
+</div>
+
+<div class="container well">
+
+    <div class="col-md-12">
+        <h3>{{item.name}}</h3>
+    </div>
+
+    <div class="col-md-8">
+        <p>{{item.description}}</p>
+
+        <p><h3>Prix : {{item.prix | currency:"€"}}</h3></p>
+    </div>
+    <div class="col-md-4">
+        <img ng-src="{{item.image}}" class="img-thumbnail">
+    </div>
+
+</div>

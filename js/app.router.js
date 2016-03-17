@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('catalogueApp')
-  .config(function ($routeProvider) {
+angular.module('catalogueApp').config(['$routeProvider', function ($routeProvider) {
+
     $routeProvider
     .when('/search', {
         templateUrl: './templates/search.html',
@@ -15,9 +15,9 @@ angular.module('catalogueApp')
         templateUrl: './templates/category.html',
         controller: 'CategoryCtrl'
       })
-      .when('/itemDetail', {
+      .when('/itemDetail/:id', {
         templateUrl: './templates/itemDetails.html',
         controller: 'itemDetailsCtrl'
-      });
+      }).otherwise('/search');
       
-  });
+  }]);

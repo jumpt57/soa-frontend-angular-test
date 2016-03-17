@@ -1,5 +1,5 @@
 'use strict';
-angular.module('catalogueApp')
-	.controller('ItemCtrl', function ($scope, $location, $http, $routeParams) {
 
-	});
+angular.module('catalogueApp').controller('ItemCtrl', function ($scope, $location, $http, $routeParams) {
+
+});

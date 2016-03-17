@@ -2,47 +2,37 @@
   {
     "id":1,
     "categ": 1,
-    "name": "Câble USB"
+    "name": "Hub USB Belkin Hub USB 3.0 + Câble USB-C - 4 ports",
+    "prix": 89.99,
+    "description": "Avec le Hub Belkin 4 ports USB 3.0 + Câble USC-C, réalisez une transition facile entre vos périphériques sur votre ordinateur portable ou de bureau doté d'un port USB Type-C. Profitez d'une vitesse de transfert de données remarquable et du port USB-C réversible !",
+    "image": "http://www.materiel.net/live/337625.jpg",
+    "keyword": ["hub", "usb", "belkin", "3.0"]
   },
   {
     "id":2,
-    "categ": 2,
-    "name": "Asus ROG P85"
+    "categ": 1,
+    "name": "Hub USB StarTech.com Hub USB 3.0 Portable avec câble intégré - 4 ports ",
+    "prix": 29.99,
+    "description": "Le hub USB 3.0 4 ports prend en charge une bande passante USB 3.0 de 5 Gb/s, soit jusqu'à dix fois la norme USB 2.0. Il est rétrocompatible avec des appareils USB 2.0 et 1.1, ce qui assure un fonctionnement parfait de tous vos périphériques et vos appareils USB, et ce, quel que soit leur âge.",
+    "image": "http://www.materiel.net/live/308400.jpg",
+    "keyword": ["hub", "usb", "startech", "3.0"]
   },
   {
     "id":3,
-    "categ": 3,
-    "name": "Ecran Samsung 4K 54 pouces"
+    "categ": 1,
+    "name": "Hub USB StarTech.com Hub USB 3.0 portable avec cable intégré - 4 ports ",
+    "prix": 39.95,
+    "description": "Idéal pour ajouter des ports à votre Ultrabook™, votre tablette ou votre Macbook®, ce hub USB portable au format compact propose des ports sur le dessus, ce qui permet de placer les périphériques comme les clés USB ou les récepteurs de souris ou de clavier sans fil à la verticale sur le bureau. Il est également possible de le coucher sur le côté pour brancher plus facilement les câbles de périphériques comme des disques durs externes ou des imprimantes. ",
+    "image": "http://www.materiel.net/live/308319.jpg",
+    "keyword": ["hub", "usb", "startech", "3.0"]
   },
   {
     "id":4,
     "categ": 1,
-    "name": "Câble VGA"
-  },
-  {
-    "id":5,
-    "categ": 2
-  },
-  {
-    "id":6,
-    "categ": 3
-  },
-  {
-    "id":7,
-    "categ": 1,
-    "name": "Câble HDMI"
-  },
-  {
-    "id":8,
-    "categ": 2
-  },
-  {
-    "id":9,
-    "categ": 3
-  },
-  {
-    "id":10,
-    "categ": 1,
-    "name": "Câble DVI"
+    "name": "Hub USB StarTech.com Hub USB 2.0 - 4 ports ",
+    "prix": 12.95,
+    "description": "Accessoire idéal pour optimiser le nombre de connexions USB d''un ordinateur portable, le mini hub USB à quatre ports nécessite peu d''alimentation, garantissant ainsi que vous profiterez au mieux de la batterie de votre ordinateur portable.    Le mini hub à quatre ports prend en charge l''USB 2.0 haute vitesse avec une vitesse de transfert pouvant atteindre 480 Mb/s. En outre, le hub étant rétrocompatible avec les versions USB antérieures, vos anciens périphériques USB fonctionneront également sans problème.",
+    "image": "http://www.materiel.net/live/211406.png",
+    "keyword": ["hub", "usb", "startech", "3.0"]
   }
 ]
