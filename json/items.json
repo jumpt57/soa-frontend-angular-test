@@ -6,33 +6,60 @@
     "prix": 89.99,
     "description": "Avec le Hub Belkin 4 ports USB 3.0 + Câble USC-C, réalisez une transition facile entre vos périphériques sur votre ordinateur portable ou de bureau doté d'un port USB Type-C. Profitez d'une vitesse de transfert de données remarquable et du port USB-C réversible !",
     "image": "http://www.materiel.net/live/337625.jpg",
-    "keyword": ["hub", "usb", "belkin", "3.0"]
+    "keywords": ["hub", "usb", "belkin", "3.0"]
   },
   {
     "id":2,
     "categ": 1,
-    "name": "Hub USB StarTech.com Hub USB 3.0 Portable avec câble intégré - 4 ports ",
+    "name": "Hub USB StarTech.com Hub USB 3.0 Portable avec câble intégré - 4 ports",
     "prix": 29.99,
     "description": "Le hub USB 3.0 4 ports prend en charge une bande passante USB 3.0 de 5 Gb/s, soit jusqu'à dix fois la norme USB 2.0. Il est rétrocompatible avec des appareils USB 2.0 et 1.1, ce qui assure un fonctionnement parfait de tous vos périphériques et vos appareils USB, et ce, quel que soit leur âge.",
     "image": "http://www.materiel.net/live/308400.jpg",
-    "keyword": ["hub", "usb", "startech", "3.0"]
+    "keywords": ["hub", "usb", "startech", "3.0"]
   },
   {
     "id":3,
     "categ": 1,
-    "name": "Hub USB StarTech.com Hub USB 3.0 portable avec cable intégré - 4 ports ",
+    "name": "Hub USB StarTech.com Hub USB 3.0 portable avec cable intégré - 4 ports",
     "prix": 39.95,
     "description": "Idéal pour ajouter des ports à votre Ultrabook™, votre tablette ou votre Macbook®, ce hub USB portable au format compact propose des ports sur le dessus, ce qui permet de placer les périphériques comme les clés USB ou les récepteurs de souris ou de clavier sans fil à la verticale sur le bureau. Il est également possible de le coucher sur le côté pour brancher plus facilement les câbles de périphériques comme des disques durs externes ou des imprimantes. ",
     "image": "http://www.materiel.net/live/308319.jpg",
-    "keyword": ["hub", "usb", "startech", "3.0"]
+    "keywords": ["hub", "usb", "startech", "3.0"]
   },
   {
     "id":4,
     "categ": 1,
-    "name": "Hub USB StarTech.com Hub USB 2.0 - 4 ports ",
+    "name": "Hub USB StarTech.com Hub USB 2.0 - 4 ports",
     "prix": 12.95,
     "description": "Accessoire idéal pour optimiser le nombre de connexions USB d''un ordinateur portable, le mini hub USB à quatre ports nécessite peu d''alimentation, garantissant ainsi que vous profiterez au mieux de la batterie de votre ordinateur portable.    Le mini hub à quatre ports prend en charge l''USB 2.0 haute vitesse avec une vitesse de transfert pouvant atteindre 480 Mb/s. En outre, le hub étant rétrocompatible avec les versions USB antérieures, vos anciens périphériques USB fonctionneront également sans problème.",
     "image": "http://www.materiel.net/live/211406.png",
-    "keyword": ["hub", "usb", "startech", "3.0"]
+    "keywords": ["hub", "usb", "startech", "3.0"]
+  },
+  {
+    "id":5,
+    "categ": 2,
+    "name": "Ecran PC gamer Asus ROG Swift PG27AQ - G-Sync",
+    "prix": 959.90,
+    "description": "La branche gaming d'Asus, intitulée Republic of Gamers, est aujourd'hui un signe de qualité indéniable dans les composants et accessoires dédiés au gaming. Le Swift PG27AQ est le premier écran gamer d'Asus orné du blason ROG, et il a de l'énergie à revendre !",
+    "image": "http://www.materiel.net/live/323916.jpg",
+    "keywords": ["écran", "pc", "gamer", "asus", "gsync"]
+  },
+  {
+    "id":6,
+    "categ": 2,
+    "name": "Ecran PC gamer Asus ROG Swift PG348Q - G-Sync - Incurvé",
+    "prix": 1299.90,
+    "description": "La branche gaming d'Asus, intitulée Republic of Gamers, est aujourd'hui un signe de qualité indéniable dans les composants et accessoires dédiés au gaming. Le Swift PG348Q est constitué d'une dalle IPS d'une grande diagonale avec ses 34 pouces, mais qui est également incurvée !",
+    "image": "http://www.materiel.net/live/335234.jpg",
+    "keywords": ["écran", "pc", "gamer", "asus", "gsync", "incurvé"]
+  },
+  {
+    "id":7,
+    "categ": 2,
+    "name": " Ecran PC graphisme Dell Ultrasharp UP2715K",
+    "prix": 1799.90,
+    "description": "Avec ce nouveau moniteur, Dell s’impose d’emblée comme un poids lourd sur les moniteurs de ce gabarit. Professionnel du graphisme, de la photographie ou de l’ingénierie, l'Ultrasharp UP2715K a tout pour développer vos perspectives de travail grâce à une dalle de 27 pouces à la résolution 5K de 5120x2880 pixels. ",
+    "image": "http://www.materiel.net/live/291213.jpg",
+    "keywords": ["écran", "pc", "graphisme", "dell", "ultrasharp"]
   }
 ]

@@ -7,23 +7,35 @@ angular.module('catalogueApp').controller('itemDetailsCtrl', ['$scope', '$routeP
         url: './json/items.json'
     }).then(function successCallback(response) {
         angular.forEach(response.data, function (item) {
-            console.log(JSON.stringify(item));
-            $scope.verif($routeParams.id, item);
+            verif($routeParams.id, item);
         });
     }, function errorCallback(response) {
         $scope.message = JSON.stringify(response);
     });
 
-    $scope.verif = function(id, item){
+    $http({
+        method: 'GET',
+        url: './json/categories.json'
+    }).then(function successCallback(response) {
+        angular.forEach(response.data, function (categ) {
+            if(categ.id == $scope.item.categ){
+                $scope.categ = categ;
+            }
+        });
+    }, function errorCallback(response) {
+        $scope.message = JSON.stringify(response);
+    });
+
+    $scope.retour = function(){
+        $location.path('/search');
+    };
+
+    function verif(id, item){
         if (id == item.id){
             $scope.item = item;
             return;
         }
         return;
     };
-
-    $scope.retour = function(){
-        $location.path('/search');
-    }
 
 }]);

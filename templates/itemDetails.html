@@ -4,15 +4,20 @@
 
 <div class="container well">
 
-    <div class="col-md-12">
-        <h3>{{item.name}}</h3>
-    </div>
-
     <div class="col-md-8">
-        <p>{{item.description}}</p>
+        <div class="col-md-12">
+            <h3>{{item.name}}</h3>
+            <h5><u>{{categ.name}}</u></h5>
+        </div>
 
-        <p><h3>Prix : {{item.prix | currency:"€"}}</h3></p>
+        <div class="col-md-8">
+            <p>{{item.description}}</p>
+
+            <p><h3>Prix : {{item.prix | currency:"€"}}</h3></p>
+        </div>
     </div>
+
+
     <div class="col-md-4">
         <img ng-src="{{item.image}}" class="img-thumbnail">
     </div>
