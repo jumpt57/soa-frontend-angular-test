@@ -7,11 +7,15 @@ angular.module('catalogueApp').config(['$routeProvider', function ($routeProvide
         templateUrl: './templates/search.html',
         controller: 'searchCtrl'
       })
-      .when('/category', {
+      .when('/item', {
         templateUrl: './templates/item.html',
         controller: 'ItemCtrl'
       })
-      .when('/item', {
+      .when('/item/:category', {
+        templateUrl: './templates/item.html',
+        controller: 'ItemCtrl'
+      })
+      .when('/category', {
         templateUrl: './templates/category.html',
         controller: 'CategoryCtrl'
       })
