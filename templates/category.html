@@ -1,0 +1,16 @@
+<div class="page-header">
+    <h3>Sélectionnez une catégorie</h3>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 col-md-4" ng-repeat="category in categories" ng-click="categoryClick(category)">
+    <div class="thumbnail" style="height:485px;">
+      <img src="{{category.image}}" alt="{{category.name}}">
+      <div class="caption">
+        <h3>{{category.name}}</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p ng-model="message"></p>
