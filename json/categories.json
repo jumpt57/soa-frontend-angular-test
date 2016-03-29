@@ -1,9 +1,12 @@
 [
-  {
-    "id":1,
-    "name": "USB - Câbles, hubs et adaptateurs"
-  },{
-  "id":2,
-  "name": "Ecrans de jeu"
-}
+	{
+		"id":1,
+		"name": "USB - Câbles, hubs et adaptateurs",
+	    "image": "http://www.materiel.net/live/337625.jpg"
+	},
+	{
+		"id":2,
+		"name": "Ecrans de jeu",
+		"image": "http://www.materiel.net/live/323916.jpg"
+	}
 ]
