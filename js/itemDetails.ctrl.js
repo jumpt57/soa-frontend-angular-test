@@ -2,6 +2,10 @@
 
 angular.module('catalogueApp').controller('itemDetailsCtrl', ['$scope', '$routeParams', '$http', '$location', function($scope, $routeParams, $http, $location){
 
+    document.getElementById("category").className="";
+    document.getElementById("item").className="";
+    document.getElementById("search").className="";
+
     $http({
         method: 'GET',
         url: './json/items.json'

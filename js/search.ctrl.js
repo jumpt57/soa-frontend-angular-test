@@ -2,6 +2,11 @@
 
 angular.module('catalogueApp').controller('searchCtrl', ['$scope', '$http', '$location', function($scope, $http, $location){
 
+    document.getElementById("category").className="";
+    document.getElementById("item").className="";
+    document.getElementById("search").className="active";
+    document.getElementById("search").focus="";
+
     $scope.search = function(param) {
         $scope.items = [];
         $http({
